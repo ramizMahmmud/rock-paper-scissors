@@ -60,7 +60,7 @@ function playRound(playerSelection, computerSelection){
     }
 
 }
-const playerSelection = "paper";
+const playerSelection = prompt("Enter rock or paper or scissors!");
 const computerSelection = getComputerChoice();
 const result = playRound(playerSelection,computerSelection);
 console.log(result);
